@@ -5,4 +5,5 @@
 <ul>
     <li><a href="https://fontawesome.com/">Font Awesome</a></li>
     <li><a href="https://necolas.github.io/normalize.css/">Normalize.css</a></li>
+    <li><a href="https://favicon.io/">Favicon.io</a></li>
 </ul>
