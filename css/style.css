@@ -177,7 +177,7 @@ header .navbar-toggle:hover {
         width: 100%;
         padding: 10px 0 30px 15px;
         background-color: var(--secondary-color);
-        top: calc(50px + 1.475rem + 2vw);
+        top: 100%;
         left: 0;
         display: flex;
         gap: 20px;
@@ -536,6 +536,7 @@ footer form {
 }
 
 .offer .container input:first-child {
+    border-radius: 5px 0 0 5px;
     width: min(280px, calc(100% - 150px));
     background-color: var(--brown-white);
     caret-color: var(--main-color);
@@ -556,6 +557,7 @@ footer form {
 }
 
 .offer .container input:last-child {
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
     background-color: var(--main-color);
     font-weight: bold;
@@ -907,6 +909,7 @@ footer form {
 }
 
 footer input[type="email"] {
+    border-radius: 5px 0 0 5px;
     width: 100%;
     background-color: var(--brown-white);
     padding: 20px;
@@ -927,6 +930,7 @@ footer input[type="email"]:focus+input {
 }
 
 footer input[type="submit"] {
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
     background-color: var(--main-color);
     color: var(--secondary-color);
